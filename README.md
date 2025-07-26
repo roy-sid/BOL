@@ -1,75 +1,157 @@
-# BOL
-for Triwizard hackathon
 
-What is bol?
-bol is a real-time object recognition and translation app that uses your camera to identify objects, translate their names into another language, and provide rich cultural context — like where the object is used, in which festivals, folk stories, and more.
+# 📌 bol – Bridging Objects and Language
 
-Whether you’re learning Hindi, Bengali, or Tamil — bol lets you experience a language through your eyes, not just words.
+> 🌍 Learn languages through objects around you — with cultural context!  
+> 🔎 Point. 📸 Detect. 🌐 Translate. 🎭 Discover.
 
-Features
-📸 Real-time camera object detection (YOLO/MobileNet)
-🌐 Live translation of detected object labels
-🧧 Cultural info (festivals, stories, regional significance)
-📱 Clean and responsive UI
-🔐 Modular backend with FastAPI
-🌈 Language support extensible with minimal config
+---
 
-Tech Stack
-Frontend:
-React, TailwindCSS, Axios, React Webcam, React Router
+## 📽️ Demo Video
 
-Backend:
-FastAPI, Uvicorn, Python, YOLOv5/MobileNet, OpenCV, MongoDB
+[👉 Watch the Demo on YouTube](https://your-video-link.com)
 
-Folder Structure
+---
+
+## 🧠 What is *bol*?
+
+**bol** is a real-time object recognition and translation app that uses your camera to identify objects, translate their names into another language, and provide rich cultural context — like where the object is used, in which festivals, folk stories, and more.
+
+Whether you’re learning Hindi, Bengali, or Tamil — *bol* lets you experience a language through your *eyes*, not just words.
+
+---
+
+## 🚀 Features
+
+- 📸 Real-time camera object detection (YOLO/MobileNet)
+- 🌐 Live translation of detected object labels
+- 🧧 Cultural info (festivals, stories, regional significance)
+- 📱 Clean and responsive UI
+- 🔐 Modular backend with FastAPI
+- 🌈 Language support extensible with minimal config
+
+---
+
+## 🧱 Tech Stack
+
+**Frontend**:  
+`React`, `TailwindCSS`, `Axios`, `React Webcam`, `React Router`
+
+**Backend**:  
+`FastAPI`, `Uvicorn`, `Python`, `YOLOv5/MobileNet`, `OpenCV`, `MongoDB`
+
+---
+
+## 📂 Folder Structure
+
+```bash
 bol/
-├── bol_frontend/
+├── frontend/
 │   ├── public/
 │   ├── src/
 │   │   ├── components/
 │   │   ├── pages/
 │   │   └── App.js
 │   └── package.json
-├── bol_backend/
+├── backend/
 │   ├── main.py
 │   ├── detect.py
 │   ├── translate.py
 │   ├── culture.py
 │   └── requirements.txt
 └── README.md
+```
 
-Getting Started
+---
 
-1. Clone the repo
-git clone https://github.com/roy-sid/BOL.git
+## ⚙️ Getting Started
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/your-username/bol.git
 cd bol
+```
 
-2. Frontend Setup (React)
+---
+
+## ▶️ Frontend Setup (React)
+
+```bash
 cd frontend
 npm install
 npm run start
+```
 
-3. Backend Setup (FastAPI)
+> React app will start on [http://localhost:3000](http://localhost:3000)
+
+---
+
+## 🧠 Backend Setup (FastAPI)
+
+```bash
 cd backend
 python -m venv env
 source env/bin/activate  # or env\Scripts\activate on Windows
 pip install -r requirements.txt
 uvicorn main:app --reload
+```
 
+> FastAPI backend runs on [http://localhost:8000](http://localhost:8000)
 
-How It Works
+---
+
+## 🔐 Environment Variables
+
+Create a `.env` file in both `frontend/` and `backend/` directories if needed.
+
+**Frontend `.env`**
+```env
+REACT_APP_API_URL=http://localhost:8000
+```
+
+---
+
+## 🖼️ Screenshots & Demo
+
+### 🧠 Live Camera Detection UI
+![Camera UI](https://your-image-link.com/camera-ui.gif)
+
+### 🌐 Translated Result with Culture
+![Translated Result](https://your-image-link.com/translated-result.gif)
+
+> 💡 Replace the image links above with real screenshots or GIFs
+
+---
+
+## ✅ How It Works
+
 1. Open the camera via the UI
 2. The backend detects the object using a lightweight model (YOLO/MobileNet)
 3. Translates the object name into the chosen language
 4. Fetches cultural information from MongoDB (festivals, stories, etc.)
 5. Displays it all on-screen — in real-time!
 
-Innovation Highlights
-1. Combines Computer Vision + Language Learning + Culture
-2. Real-time interaction through object detection
-3. Cultural immersion through festivals, rituals, and stories
-4. Easy to scale to other Indian and global languages
+---
 
-Contributors
-Ankita Jha – Frontend, ML Integration, Cultural content
-Siddhant Roy – Backend, FastAPI, YOLO/MobileNet integration
+## ✨ Innovation Highlights
+
+- Combines **Computer Vision + Language Learning + Culture**
+- Real-time interaction through **object detection**
+- Cultural immersion through **festivals, rituals, and stories**
+- Easy to scale to other Indian and global languages
+
+---
+
+## 👨‍💻 Contributors
+
+- **Ankita Jha** – Frontend, ML Integration, Cultural content  
+- **Siddhant Roy** – Backend, FastAPI, YOLO/MobileNet integration
+
+---
+
+## 📢 Final Notes for Judges
+
+- 📁 **Public GitHub Repo** ✅  
+- 📹 **3+ minute YouTube Video** ✅  
+- 💬 **Clear documentation & code comments** ✅  
+- 🧩 **Matches original PPT submission** ✅  
+- 🧪 **Tested across browsers and devices** ✅
