@@ -41,7 +41,7 @@ bol/
 Getting Started
 
 1. Clone the repo
-git clone https://github.com/your-username/bol.git
+git clone https://github.com/roy-sid/BOL.git
 cd bol
 
 2. Frontend Setup (React)
