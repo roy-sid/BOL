@@ -6,12 +6,6 @@
 
 ---
 
-## 📽️ Demo Video
-
-[👉 Watch the Demo on YouTube](https://your-video-link.com)
-
----
-
 ## 🧠 What is *bol*?
 
 **bol** is a real-time object recognition and translation app that uses your camera to identify objects, translate their names into another language, and provide rich cultural context — like where the object is used, in which festivals, folk stories, and more.
@@ -99,17 +93,6 @@ uvicorn main:app --reload
 
 ---
 
-## 🔐 Environment Variables
-
-Create a `.env` file in both `frontend/` and `backend/` directories if needed.
-
-**Frontend `.env`**
-```env
-REACT_APP_API_URL=http://localhost:8000
-```
-
----
-
 ## 🖼️ Screenshots & Demo
 
 ### 🧠 Live Camera Detection UI
@@ -117,8 +100,6 @@ REACT_APP_API_URL=http://localhost:8000
 
 ### 🌐 Translated Result with Culture
 ![Translated Result](https://your-image-link.com/translated-result.gif)
-
-> 💡 Replace the image links above with real screenshots or GIFs
 
 ---
 
