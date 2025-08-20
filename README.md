@@ -129,10 +129,3 @@ uvicorn main:app --reload
 
 ---
 
-## 📢 Final Notes for Judges
-
-- 📁 **Public GitHub Repo** ✅  
-- 📹 **3+ minute YouTube Video** ✅  
-- 💬 **Clear documentation & code comments** ✅  
-- 🧩 **Matches original PPT submission** ✅  
-- 🧪 **Tested across browsers and devices** ✅
