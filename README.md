@@ -93,16 +93,6 @@ uvicorn main:app --reload
 
 ---
 
-## 🖼️ Screenshots & Demo
-
-### 🧠 Live Camera Detection UI
-![Camera UI](https://your-image-link.com/camera-ui.gif)
-
-### 🌐 Translated Result with Culture
-![Translated Result](https://your-image-link.com/translated-result.gif)
-
----
-
 ## ✅ How It Works
 
 1. Open the camera via the UI
